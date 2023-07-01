@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    color:rgb(240, 83, 109);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+#resultado img{
+    width: 15%;
+
+}
+#resultado{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.contenedor {
+    max-width: 500px;
+    height: 100vh;
+    max-height: 800px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#playTitulo{
+    font-size: 36px;
+    padding: 20px;
+}
+#grupoBotones{
+    display: flex;
+    width: 100%;
+}
+#grupoBotones > button > img{
+    width: 40%;
+}
+button{
+    background-color: aliceblue;
+    border: 1px solid burlywood ;
+    border-radius: 25%;
+    margin: 6px;
+
+}
+footer{
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
